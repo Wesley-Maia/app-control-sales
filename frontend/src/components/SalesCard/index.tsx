@@ -7,10 +7,7 @@ import { BASE_URL } from "../../utils/request";
 import { Sale } from "../../models/sale";
 import NotificationButton from "../NotificationButton";
 
-window.React = React;
-
 import "./styles.css";
-
 
 function SalesCard() {
 
