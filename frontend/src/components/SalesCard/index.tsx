@@ -1,3 +1,4 @@
+import React from 'react';
 import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -7,7 +8,6 @@ import { Sale } from "../../models/sale";
 import NotificationButton from "../NotificationButton";
 
 import "./styles.css";
-
 
 function SalesCard() {
 
